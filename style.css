@@ -46,15 +46,8 @@ nav .mobile a{
 .hero{
    margin-top: 50px;
 }
-.hero .explore-btn a{
-   padding: 15px 30px;
-   outline: 2px solid #b4b2b2;
-   border-radius: 30px;
-   color: #ffffff;
-}
 .hero .content{
    max-width: 500px;
-   padding-top: 30px;
    color: #ffffff;
 }
 .hero .content h1{
@@ -180,7 +173,7 @@ nav .mobile a{
 }
 .vacation .row-2 .cards .card{
    margin-top: 30px;
-   width: 200px;
+   width: 270px;
    color: #ffffff;
    padding: 15px 25px;
    height: 300px;
@@ -352,9 +345,6 @@ footer .container .mobile a{
    section{
       padding: 0 50px;
    }
-   .hero .explore-btn a{
-      padding: 10px 20px;
-   }
    .hero .content h1{
       font-size: 36px;
    }
@@ -426,14 +416,8 @@ footer .container .mobile a{
       flex-direction: column-reverse;
       gap: 10px;
    }
-   .hero .explore-btn a{
-      font-size: 12px;
-   }
    .hero .content h1{
       font-size: 24px;
-   }
-   .hero .content p{
-      font-size: 12px;
    }
    .hero .content a{
       font-size: 12px;
@@ -447,7 +431,6 @@ footer .container .mobile a{
    }
    .experience .left p{
       max-width: 100%;
-      font-size: 12px;
    }
    .experience .left .h1{
       font-size: 24px;
@@ -471,7 +454,6 @@ footer .container .mobile a{
    }
    .vacation .row-1 .col-2 p{
       width: 100%;
-      font-size: 12px;
    }
    .vacation .row-1 .col-2 .para1{
       padding-top: 20px;
@@ -484,7 +466,7 @@ footer .container .mobile a{
       align-items: center;
    }
    .vacation .row-2 .cards .card{
-      width: 300px;
+      width: 270px;
       height: 250px;
    }
    .slogan .container{
@@ -513,6 +495,7 @@ footer .container .mobile a{
    }
    footer .container{
       display: flex;
+      padding: 0 20px;
       flex-direction:column;
       align-items: flex-start;
    }
